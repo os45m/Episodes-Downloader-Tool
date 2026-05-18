@@ -3,6 +3,22 @@
 > **أداة لتنزيل حلقات المسلسلات بشكل منظم وسريع**
 > **A tool for downloading TV series episodes in an organized and fast way**
 
+## ⚖️ إبراء ذمة شرعي وقانوني / Disclaimer
+
+### 🌐 العربية
+
+> **إبراء ذمة أمام الله:** تم تطوير هذا البرنامج كأداة برمجية لأغراض الأتمتة والتعلم والتعمق التقني فقط. وأنا **أبرأ إلى الله سبحانه وتعالى** من أي استخدام لهذه الأداة فيما يغضبه، أو في تحميل ومشاهدة المحرمات (كاللقطات الماجنة، الأفكار الهدامة، أو الموسيقى المحرمة)، أو أي محتوى لا يرضي الله عز وجل. 
+>
+> **ملاحظة قانونية هامة:** هذه الأداة هي مشروع مفتوح المصدر. المطور لا يتحمل أي مسؤولية (أخلاقية، شرعية، أو قانونية) عن كيفية استخدام الأفراد لهذا البرنامج، أو عن نوعية المحتوى (سواء كان محمياً بحقوق نشر أو غير لائق) الذي يختاره المستخدمون لتحميله ومشاهدته. الأداة وسيلة تقنية محايدة تماماً، وكل مستخدم مسؤول بالكامل عن إدخالاته، وعن توافق استخداماته مع الأحكام والشروط والقوانين المحلية، وهو المسؤول الأول والأخير عن صحيفة أعماله وما يختار تحميله بيده؛ فاتق الله ولا تجعل هذا الجهد حجة عليك يوم القيامة.
+
+---
+
+### 🌐 English
+
+> **Islamic Disclaimer:** This tool was developed solely as a technical utility for automation and educational purposes. As a Muslim, **I completely disassociate myself before Allah (SWT)** from any misuse of this software to download or watch anything that is prohibited in Islam (Haram)—such as inappropriate scenes, forbidden music, or unlawful content. The tool is a neutral piece of code, and each user is fully responsible before Allah for what they choose to download and watch. Please fear Allah and use it responsibly.
+>
+> **Important Legal Note:** This tool is an open-source utility built strictly for technical, educational, and automation development purposes. The developer holds absolutely **zero responsibility** for how individuals choose to use this software, or for any copyrighted, restricted, or inappropriate content users may download and watch using it. Users are solely responsible for compliance with their local laws, copyright regulations, and the terms of service of any third-party platforms.
+> 
 ---
 
 ## 🌐 English
