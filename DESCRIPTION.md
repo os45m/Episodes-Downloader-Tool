@@ -1,5 +1,40 @@
 # 📺 Episodes Downloader Tool
 
+## Description in English
+
+**Episodes Downloader Tool** is a Windows desktop utility that simplifies downloading TV series episodes from the internet and organizing them automatically on your machine.
+
+### The Idea
+
+The project grew out of a real frustration: when following multiple series and downloading episodes manually, the process becomes tedious — every time you need to open a downloader, set the path, name the file in the right format, and make sure it ends up in the right folder.
+
+The goal was to build a tool that bundles all those steps into one simple interactive interface, validates every input, and organizes files automatically using the standard `S01E05.mp4` naming convention.
+
+### What Makes This Tool Stand Out
+
+- **Interactive text interface** — no technical knowledge required
+- **Two operating modes** — flexible manual mode, or automatic mode via a SERIES folder on the Desktop
+- **Smart input validation** — rejects wrong paths and malformed episode numbers before any download starts
+- **Standardized file naming** — automatically saves episodes as `S00E00.mp4`
+- **Fast downloads** — uses 10 concurrent fragments via yt-dlp
+- **Referer URL support** — handles websites that require a request source header
+- **Auto folder creation** — if the series folder doesn't exist, the tool offers to create it on the spot
+
+### Technologies Used
+
+- **Windows Batch Script (.bat)** — the core engine of the program
+- **yt-dlp** — the powerful downloader that supports hundreds of websites
+- **iexpress** — a built-in Windows tool used to bundle the `.bat` script together with `yt-dlp.exe` into a single self-contained `.exe`, so the user just downloads one file and runs it immediately — no setup needed
+
+### Project Structure
+
+```
+EpisodesDownloader/
+├── EpisodesDownloader.exe   ← Full program (yt-dlp bundled inside)
+├── README.md                ← Usage guide
+└── DESCRIPTION.md           ← This file
+```
+
 ## الوصف بالعربية
 
 **Episodes Downloader Tool** هي أداة سطح مكتب مصممة لـ Windows، تُسهّل تنزيل حلقات المسلسلات من الإنترنت وتنظيمها تلقائياً على جهازك.
@@ -36,41 +71,6 @@ EpisodesDownloader/
 ```
 
 ---
-
-## Description in English
-
-**Episodes Downloader Tool** is a Windows desktop utility that simplifies downloading TV series episodes from the internet and organizing them automatically on your machine.
-
-### The Idea
-
-The project grew out of a real frustration: when following multiple series and downloading episodes manually, the process becomes tedious — every time you need to open a downloader, set the path, name the file in the right format, and make sure it ends up in the right folder.
-
-The goal was to build a tool that bundles all those steps into one simple interactive interface, validates every input, and organizes files automatically using the standard `S01E05.mp4` naming convention.
-
-### What Makes This Tool Stand Out
-
-- **Interactive text interface** — no technical knowledge required
-- **Two operating modes** — flexible manual mode, or automatic mode via a SERIES folder on the Desktop
-- **Smart input validation** — rejects wrong paths and malformed episode numbers before any download starts
-- **Standardized file naming** — automatically saves episodes as `S00E00.mp4`
-- **Fast downloads** — uses 10 concurrent fragments via yt-dlp
-- **Referer URL support** — handles websites that require a request source header
-- **Auto folder creation** — if the series folder doesn't exist, the tool offers to create it on the spot
-
-### Technologies Used
-
-- **Windows Batch Script (.bat)** — the core engine of the program
-- **yt-dlp** — the powerful downloader that supports hundreds of websites
-- **iexpress** — a built-in Windows tool used to bundle the `.bat` script together with `yt-dlp.exe` into a single self-contained `.exe`, so the user just downloads one file and runs it immediately — no setup needed
-
-### Project Structure
-
-```
-EpisodesDownloader/
-├── EpisodesDownloader.exe   ← Full program (yt-dlp bundled inside)
-├── README.md                ← Usage guide
-└── DESCRIPTION.md           ← This file
-```
 
 ### License
 
